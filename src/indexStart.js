@@ -98,7 +98,6 @@ function shuffleImages() {
         images[i] = images[rndIndex];
         images[rndIndex] = temp;
     }
-    console.log(images);
 }
 
 // assigns the handleclick function to the onclick event for all cards
